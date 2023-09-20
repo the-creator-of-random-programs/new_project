@@ -1,0 +1,13 @@
+name = "myproject"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Yacine Lamri"]
+maintainers = ["Yacine Lamri <yacinelamri42@gmail.com>"]
+maintainers-logins = ["the-creator-of-random-programs"]
+
+executables = ["myproject"]
+[[depends-on]]
+stm32f047vg_hal = "~0.1.0-dev"
+[[pins]]
+stm32f047vg_hal = { path='../stm32f047vg_hal' }
